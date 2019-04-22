@@ -1,0 +1,44 @@
+{
+  "name": "babel-preset-manpacker-react",
+  "version": "1.0.0",
+  "description": "Manpacker babel presets react",
+  "main": "index.js",
+  "scripts": {
+    "babel": "npx babel ./test --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manpackers/babel-preset-manpacker-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manpackers/babel-preset-manpacker-react/issues"
+  },
+  "homepage": "https://github.com/manpackers/babel-preset-manpacker-react",
+  "keywords": [
+    "babel-core",
+    "presets",
+    "babel-polyfill",
+    "core-js",
+    "react"
+  ],
+  "author": {
+    "name": "winterfete"
+  },
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": [
+      "manpacker"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "eslint": "^5.16.0",
+    "eslint-config-manpacker-react": "^1.1.1"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "babel-preset-manpacker": "^1.1.1",
+    "deepmerge": "^3.2.0"
+  }
+}
