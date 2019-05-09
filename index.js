@@ -8,8 +8,6 @@ module.exports = (context, options = {}) => {
 
   presets.unshift(['manpacker', envOptions])
   presets.push('@babel/react')
-  plugins.push(
-    require('transform-react-remove-prop-types')
-  )
+  plugins.push('transform-react-remove-prop-types')
   return { presets, plugins }
 }
